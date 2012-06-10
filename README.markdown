@@ -17,7 +17,7 @@ name), to `routes`.
 level routes and settings.
 
 3. In general the routes should be in the form <br>
-`#{your-name}/{chapter-or-visualization-name}`
+`/#{your-name}/{chapter-or-visualization-name}`
 
 4. Also, specify the routes that should be publicly viewable like this:
 
@@ -37,7 +37,7 @@ There is a bare-bones default layout which loads a reset and application css and
 yields your content as the body. It's written in [slim](http://slim-lang.com).
 If you want to use this layout but not slim in your views, do
 
-    haml :my_view, :layout_engine => :slim`
+    haml :my_view, :layout_engine => :slim
 
 Or if you want to provide your own layout, 
 
