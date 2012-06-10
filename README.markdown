@@ -34,7 +34,7 @@ Views should be saved to the `views` subdirectory, or done as named templates
  within your routes file. They can use any templating engine you want. 
 
 There is a bare-bones default layout which loads a reset and application css and 
-yields your content as the body. It's written in [slim](http://slim-lang.org).
+yields your content as the body. It's written in [slim](http://slim-lang.com).
 If you want to use this layout but not slim in your views, do
 
     haml :my_view, :layout_engine => :slim`
