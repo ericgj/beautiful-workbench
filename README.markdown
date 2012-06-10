@@ -1,4 +1,4 @@
-## Beautiful Visuals
+## Beautiful Workbench
 
 A simple workbench for trying out different visualization techniques in a
 collaborative way. Based on the book _Beautiful Visualization_.
