@@ -21,10 +21,12 @@ level routes and settings.
 
 4. Also, specify the routes that should be publicly viewable like this:
 
-    routes_index['eric'] = [
-      [ '3', 'word cloud visualizations'],
-      [ '4', 'color experiments' ]      
-    ]
+```ruby
+routes_index['eric'] = [
+  [ '3', 'word cloud visualizations'],
+  [ '4', 'color experiments' ]      
+]
+```
 
 ### How to set up your views
 
