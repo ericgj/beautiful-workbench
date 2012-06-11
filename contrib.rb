@@ -15,6 +15,7 @@ html
   head
     link href="/css/reset.css" rel="stylesheet" type="text/css"
     link href="/css/application.css" rel="stylesheet" type="text/css"
+    link href="/css/jqcloud/jqcloud.css" rel="stylesheet" type="text/css"
   body
     == yield
   _____

@@ -1,0 +1,29 @@
+h2 By Count
+div id="count" style="width: 960px; height: 200px;"
+
+h2 By Minutes
+div id="minutes" style="width: 960px; height: 200px;"
+
+h2 By Equivalent Miles
+div id="miles" style="width: 960px; height: 200px;"
+
+script src="/js/d3-csv-json.js" type="text/javascript"
+script src="/js/jquery-1.7.2.min.js" type="text/javascript"
+script src="/js/jqcloud-1.0.0.js" type="text/javascript"
+javascript:
+  
+  var data_for_field = function(rows, field) {
+    var data = rows.map( function(row) {
+      return { text: row.Activity, weight: parseFloat(row[field]) };
+    });
+    return data;
+  };
+  
+  d3.csv('/api/activities.csv', function(rows) {
+  
+    $('#count').jQCloud( data_for_field(rows, 'Count') );
+    $('#minutes').jQCloud( data_for_field(rows, 'Minutes') );
+    $('#miles').jQCloud( data_for_field(rows, 'Miles') );
+
+  });
+  
