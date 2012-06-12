@@ -17,9 +17,11 @@ name), to `routes`.
 level routes and settings.
 
 3. In general the routes should be in the form <br>
-`/#{your-name}/{chapter-or-visualization-name}`
+`/#{your-name}/#{chapter-or-visualization-name}`
 
-4. Also, specify the routes that should be publicly viewable like this:
+For instance, `get '/eric/3'`
+
+4. Also in the routes file, specify the routes that should be publicly viewable like this:
 
 ```ruby
 routes_index['eric'] = [
@@ -44,12 +46,12 @@ Or if you want to provide your own layout,
     erb :my_view, :layout => :'my_name/my_layout'
 
 Javascript, CSS, and images are in directories under `public` -- feel free to 
-drop whatever you need in.
+drop whatever you need in, using subdirectories to namespace.
 
 
 ### How to run locally
 
-1. `gem install sinatra && gem install slim`
-2. `rackup` from the root directory
+1. `bundle install`
+2. `bundle exec rackup` from the root directory
 3. Browse [http://localhost:9292/contrib](http://localhost:9292/contrib).
 
