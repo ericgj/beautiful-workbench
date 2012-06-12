@@ -17,8 +17,7 @@ name), to `routes`.
 level routes and settings.
 
 3. In general the routes should be in the form <br>
-`/#{your-name}/#{chapter-or-visualization-name}`
-
+`/#{your-name}/#{chapter-or-visualization-name}` <br>
 For instance, `get '/eric/3'`
 
 4. Also in the routes file, specify the routes that should be publicly viewable like this:
