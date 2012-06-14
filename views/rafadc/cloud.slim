@@ -1,0 +1,14 @@
+script type="text/javascript" src="/js/jquery-1.7.2.min.js"
+script type="text/javascript" src="/js/raphael-min.js"
+script type="text/javascript" src="/js/rafadc/3/TextSplitter.js"
+script type="text/javascript" src="/js/rafadc/3/DrawText.js"
+script type="text/javascript" src="/js/rafadc/3/StarPlacingStrategy.js"
+
+h2 Randomly generated word cloud
+div id="drawContainer"
+javascript:
+  $(function(){
+    $.get('/api/community_guidelines_mendicant.txt', function(text) {
+      WordDrawing.drawWords(text);
+    });
+  });

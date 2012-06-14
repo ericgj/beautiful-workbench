@@ -1,0 +1,31 @@
+Community guidelines
+What is happening here? Why Mendicant?
+
+A community of software developers spread around the world that want to learn and grow together
+Completely free and open
+No corporate sponsorship
+We believe that solving actual problems with the appropriate feedback will result in:
+Meaningful work delivered
+A positive impact on the world
+Deeper learning opportunities for all involved
+A safe environment were respectful behavior is nourished is essential for real learning to happen
+Our way of doing things is to set good examples, encourage others to do the same and then recognize and promote the good deeds so that we can attract people who share the values we identify with
+We promote OSS because we feel it's the most practical way for us to freely exchange ideas and make progress together as a group who want to use software to make meaningful changes in the world.
+What does the university part stands for?
+
+Not an university in the traditional sense. "A school without courses"
+Some recurring activities and events
+Members propose and organize activities out of the periodic schedule
+How do you organize?
+
+As transparent as possible
+Supporting members are encouraged to become part of the decision process
+Sensitive matters are taken care by a group of staff members who assume a moderator role
+How do you meet?
+
+Using open ended services on the internet (IRC, mailing list, wiki, site)
+Are there any rules?
+
+Don't be a jerk. Respect is a must
+Don't participate primarily out of self-interest
+Have fun!
